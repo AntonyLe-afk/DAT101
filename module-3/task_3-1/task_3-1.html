@@ -11,13 +11,14 @@
     </div>
     <ol>
       <li>Discuss the behavior of part 1, What happens when the wake-up time is not 7 and what happens when it is exactly 7?</li>
-      <p>[Replace this with you answer]</p>
+      <p>[Her sammenlignes wakeUpTime (7) med time (10), og systemet sjekker da om wakeUpTime er lik time - noe den ikke er. Om time hadde vært 7, ville systemet ha printet ut "take the bus", men siden time ikke var 7 skjer det ikke noe.]</p>
       <li>Same as question #1. How ever the answer should now be different. Discuss the behavior of part 2, What happens when the wake-up time is not 7 and what happens when it is exactly 7?</li>
-      <p>[Replace this with you answer]</p>
+      <p>[Nå som en "else if" funksjon er lagt til, vil systemet sjekke om time = 8, men siden time var skrevet med const time = 10, er den påstanden også false. Om time hadde vært 8, ville systemet ha printet ut "take the train", men siden påstanden ikke var true, skjer det ikke noe siden annet info ikke er lagt til.]</p>
       <li>Discuss the behavior of part 3, what happens when wake time is less than 7 or greater than 8?</li>
-      <p>[Replace this with you answer]</p>
+      <p>[Vi har nå lagt til "else" funksjon etter "If" og "else if", hvor systemet sjekker om påstandene på "if" og "else if". Da begge påstandene er false, vil systemet sjekke om "else" påstanden er true eller false. Om wakeUpTime ikke stemmer med time, vil den printe ut "take the car". ]</p>
       <li>Discuss the behavior for part 4, what happens if the number is exactly 0, is zero positive or negative?</li>
-    </ol>
+       <p>[Nummeret er konstant "5". Systemet sjekker om "if (> 0)" & "else if (< 0)" påstandene er sanne og vil derfor enten printe ut "the number is negative/posiive". Om nummeret er eksakt 0, vil det printe ut "the number is zero", siden vi la til en "else" funksjon i tillegg, med den påstanden. ]</p>
+    </ol> 
     <script type="module" src="./task_3-1.mjs" defer></script>
   </body>
 </html>
